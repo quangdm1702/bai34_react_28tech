@@ -1,8 +1,10 @@
 import counterReducer from "./Counter";
 import { combineReducers } from 'redux';
+import todoReducer from "./Todo";
 
 const allReducers = combineReducers({
-  counterReducer
+  counterReducer,
+  todoReducer
   //them nhieu reducer o day
 });
 
